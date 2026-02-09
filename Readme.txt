@@ -1,8 +1,8 @@
 1)Environment Setup
 
 Create a file named .env in the root of the project and add the following variables:
-LAT=45.194260
-LONG=5.731670
+LAT=YOUR LATTITUDE
+LONG=YOUR LONGITUDE
 USER=your_email@gmail.com
 PASSWORD=your_app_password
 RECIPIENT_ADDR=recipient@gmail.com
