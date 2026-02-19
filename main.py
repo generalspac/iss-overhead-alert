@@ -4,8 +4,7 @@ import mail_sender
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # loading the .env file
-
+load_dotenv()  
 
 ##my position
 MY_LAT=os.getenv("MY_LAT")
@@ -45,3 +44,4 @@ while True:
         if int(MY_LAT)==int(iss_lat) and int(MY_LONG)==int(iss_long):
 
             mail_sender.send_mail(name,name=recipient_email)
+
